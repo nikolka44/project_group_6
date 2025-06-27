@@ -1,2 +1,37 @@
 .about {
+  background-image: url(../img/about/about-mobile.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 320px;
+}
+@media only screen and (min-resolution: 2x) {
+  .about {
+    background-image: url(../img/about/about-mobail2x.webp);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about {
+    background-image: url(../img/about/about-tabl.webp);
+    max-width: 768px;
+  }
+  @media only screen and (min-resolution: 2x) {
+    .about {
+      background-image: url(../img/about/about-table2x.webp);
+      max-width: 768px;
+    }
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about {
+    background-image: url(../img/about/about.webp);
+    max-width: 1440px;
+  }
+  @media only screen and (min-resolution: 2x) {
+    .about {
+      background-image: url(../img/about/about2x.webp);
+      max-width: 1440px;
+    }
+  }
 }
