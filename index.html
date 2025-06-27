@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
     />
     <script type="module" crossorigin src="/project_group_6/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project_group_6/assets/index-DN3XBQMH.css">
+    <link rel="stylesheet" crossorigin href="/project_group_6/assets/index-V1EuJswh.css">
   </head>
   <body>
     <header class="header">header</header>
@@ -26,19 +26,27 @@
       <!-- Loads the specified .html file -->
       <section class="hero">
   <div class="container">
-    <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті.</h1>
-    <p class="hero-text">
-      Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
-      відповідальність разом з EcoTote.
-    </p>
-    <a href="#assortment" class="hero-btn">Купити зараз</a>
-
-    <img
-      srcset="/project_group_6/assets/hero--1x-mob-DhYCfGto.png 1x, /project_group_6/assets/hero--2x-mob-D_E5-I7K.png 2x"
-      src="/project_group_6/assets/hero--1x-mob-DhYCfGto.png"
-      alt="EcoTote сумки"
-      width="288"
-    />
+    <div class="hero-tab">
+      <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті.</h1>
+      <div class="for-text">
+        <p class="hero-text">
+          Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+          відповідальність разом з EcoTote.
+        </p>
+        <a href="#assortment" class="hero-btn">Купити зараз</a>
+      </div>
+    </div>
+    <picture>
+      <source
+        srcset="/project_group_6/assets/hero-1x-tab-DlcWN9ln.png 1x, /project_group_6/assets/hero-2x-tab-ePqyl7mR.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/project_group_6/assets/hero--1x-mob-DhYCfGto.png 1x, /project_group_6/assets/hero--2x-mob-D_E5-I7K.png 2x"
+        media="(max-width: 767px)"
+      />
+      <img src="/project_group_6/assets/hero--1x-mob-DhYCfGto.png" alt="EcoTote сумки" />
+    </picture>
   </div>
 </section>
 
