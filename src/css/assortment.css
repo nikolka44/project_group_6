@@ -18,10 +18,7 @@ img {
   color: #030a06;
   margin-bottom: 32px;
 }
-.assortment-list {
-}
-.assortment-list-item {
-}
+
 .thumb {
   display: flex;
   margin-bottom: 16px;
@@ -70,6 +67,7 @@ img {
 .assortment-item-btn:focus {
   background-color: transparent;
   color: #113916;
+  cursor: pointer;
 }
 .assortment-item-btn:active {
   border: none;
@@ -99,17 +97,28 @@ img {
   }
 }
 @media only screen and (min-width: 1440px) {
+  .assortment > .container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
   .assortment-list {
     gap: 24px;
     row-gap: 64px;
     margin-left: 0;
     margin-right: 0;
   }
+
   .thumb {
     max-width: 310px;
   }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
   .assortment-list-item {
-    flex: 1 1 calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
   }
   .duffle-pc-group {
     max-width: 250px;
@@ -122,5 +131,8 @@ img {
   .pc-kids-group {
     margin-top: 27px;
     margin-bottom: 11px;
+  }
+  .assortment-item-btn {
+    max-width: 310px;
   }
 }
