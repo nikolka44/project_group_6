@@ -12,7 +12,7 @@
   letter-spacing: 0.01em;
   color: #030a06;
   max-width: 288px;
-  margin: auto;
+
   margin-bottom: 20px;
 }
 
@@ -54,4 +54,38 @@
 
 .hero-btn:active {
   border: none;
+}
+
+/* --media for hero sections-- */
+
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+    padding: 32px 0px 64px 0px;
+  }
+  .hero-tab {
+    display: flex;
+    gap: 24px;
+
+    margin-bottom: 20px;
+  }
+  .hero-title {
+    max-width: 340px;
+
+    margin-bottom: 0px;
+  }
+
+  .hero-text {
+    margin-bottom: 32px;
+    max-width: 340px;
+    font-size: 18px;
+  }
+  .for-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero-btn {
+    min-width: 148px;
+  }
 }
