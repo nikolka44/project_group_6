@@ -1,2 +1,39 @@
 .feedbacks {
+  background-color: #ebf8ed;
+}
+.feedbacks-title {
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
+}
+.feedbacks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.feedbacks-icon {
+  fill: #3ac04c;
+  margin-right: 4px;
+  margin-bottom: 12px;
+}
+.feedbacks-icon.down {
+  fill: #030a06;
+}
+.feedbacks-mesage {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #030a06;
+  margin-bottom: 12px;
+}
+.feedbacks-user {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
 }
