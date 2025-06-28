@@ -5,10 +5,10 @@
 
 .advantages-container{
 margin: 0 auto;
-padding-right: 16px;
+/* padding-right: 16px;
 padding-left: 16px;
 padding-top: 32px;
-padding-bottom: 32px;
+padding-bottom: 32px; */
 }
 
 .advantages-subtitle{
@@ -78,10 +78,10 @@ color: #030a06;
 
     .advantages-container{
         max-width: 768px;
-        padding-bottom: 64px;
+        /* padding-bottom: 64px;
         padding-top: 64px;
         padding-right: 32px;
-        padding-left: 32px;
+        padding-left: 32px; */
     }
 
     .advantages-subtitle{
@@ -135,7 +135,7 @@ color: #030a06;
     
     .advantages-container{
         max-width: 1440px;
-        padding: 64px;
+        /* padding: 64px; */
     }
 
     .advantages-title{
