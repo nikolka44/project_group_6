@@ -133,9 +133,6 @@
 @media only screen and (min-width: 1440px) {
   .header-container {
     padding: 0;
-    /* width: 100%;
-    max-width: 1342px;
-    padding: 0 15px; */
   }
 
   .mob-menu-open {
