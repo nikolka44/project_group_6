@@ -6,6 +6,29 @@
   margin: 0 auto;
   max-width: 320px;
 }
+.about .container {
+  text-align: center;
+}
+.about_title_text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.about_title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.about_text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+}
 @media only screen and (min-resolution: 2x) {
   .about {
     background-image: url(../img/about/about-mobail2x.webp);
