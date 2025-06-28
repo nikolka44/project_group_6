@@ -70,4 +70,11 @@
       max-width: 1440px;
     }
   }
+  .about_title {
+    font-size: 56px;
+  }
+  .about .container {
+    max-width: 573px;
+    padding: 112px 0 94px;
+  }
 }
