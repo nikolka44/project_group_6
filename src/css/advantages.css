@@ -3,7 +3,7 @@
      background: #ebf8ed;
 }
 
-.container{
+.container.advantages-container{
 margin: 0 auto;
 padding-right: 16px;
 padding-left: 16px;
@@ -76,7 +76,7 @@ color: #030a06;
 
 @media screen and (min-width:768px){
 
-    .container{
+    .container.advantages-container{
         max-width: 768px;
         padding-bottom: 64px;
         padding-top: 64px;
@@ -133,7 +133,7 @@ color: #030a06;
 
 @media screen and (min-width:1440px){
     
-    .container{
+    .container.advantages-container{
         max-width: 1440px;
         padding: 64px;
     }
