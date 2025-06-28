@@ -22,6 +22,9 @@
       max-width: 768px;
     }
   }
+  .about_text {
+    font-size: 18px;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .about {
