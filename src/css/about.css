@@ -8,6 +8,7 @@
 }
 .about .container {
   text-align: center;
+  padding: 64px 16px;
 }
 .about_title_text {
   font-size: 16px;
