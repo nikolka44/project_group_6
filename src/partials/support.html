@@ -1,1 +1,49 @@
-support
+<section class="support">
+  <div class="container support-container">
+    <div class="support-contant-wrapper">
+      <h2 class="support-titel">Залишились питання? Зв'яжіться з нами!</h2>
+      <p class="support-text">Ми тут, щоб допомогти!</p>
+      <form class="support-form">
+        <div class="modal-field">
+          <label class="support-input-text" for="user-name">Ім'я</label>
+          <input
+            type="text"
+            class="support-input"
+            name="user-name"
+            id="user-name"
+            placeholder="Іван"
+            minlength="5"
+            maxlength="64"
+          />
+        </div>
+        <div class="modal-field">
+          <label class="support-input-text" for="user-email"
+            >Електронна пошта</label
+          >
+          <input
+            type="email"
+            class="support-input"
+            name="user-email"
+            id="user-email"
+            placeholder="hello@ecotote.com"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          />
+        </div>
+        <div class="support-field-textarea">
+          <label class="support-input-text" for="user-comment"
+            >Повідомлення</label
+          >
+          <textarea
+            class="support-input support-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Введіть своє повідомлення..."
+            maxlength="500"
+          ></textarea>
+        </div>
+        <button class="support-btn" type="submit">Надіслати</button>
+      </form>
+    </div>
+    <div class="support-picture"></div>
+  </div>
+</section>
