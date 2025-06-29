@@ -1,21 +1,239 @@
 .footer {
-  padding: 20px 0;
+  background-color: #75d281;
+  padding: 48px 20px;
+  /* отступы сверху/снизу и слева/справа */
 }
-.footer-desc {
+
+.footer-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+/* Логотип */
+.footer-logo {
+  display: block;
+  max-width: 280px;
+  height: 121px;
+}
+
+.footer-logo-icon {
+  min-width: 273px;
+  height: 102px;
+
+}
+
+/* Навигационные ссылки */
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.footer-nav-link {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+}
+
+
+/* Социальные иконки */
+.footer-social {
+  display: flex;
+  gap: 12px;
+  max-width: 280px;
+  max-height: 32px;
+}
+
+.footer-social-link {
+  display: inline-flex;
+  max-width: 32px;
+}
+
+
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  fill: #030a06;
+}
+
+
+/* Контакты */
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-top: 1px solid rgba(3, 10, 6, 0.15);
+  max-width: 280px;
+  align-items: center;
+}
+
+.footer-contacts {
+  align-items: center;
+  width: 100%;
+  max-width: 142px;
+  padding-top: 24px;
+  gap: 16px;
+
+}
+
+.footer-contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.footer-contact-link {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #113916;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: #030a06;
+}
+
+/* Копирайт */
+.footer-copy {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #030a06;
   text-align: center;
+  margin: 0;
+  padding-bottom: 16px;
 }
-.footer-link {
-  position: relative;
+
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 64px 32px;
+  }
+
+  .footer-conteiner {
+    gap: 32px;
+  }
+
+  .footer-logo {
+    min-width: 164px;
+    max-height: 70px;
+  }
+
+  .footer-logo-icon {
+    min-width: 160px;
+    height: 60px;
+  }
+
+  .footer-nav-list {
+    flex-direction: row;
+    max-width: 566px;
+    height: 26px;
+  }
+
+  .footer-social {
+    max-width: 144px;
+    max-height: 40px;
+  }
+
+  .footer-social-link {
+    max-width: 40px;
+  }
+
+  .footer-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .info-box {
+    min-width: 704px;
+    gap: 16px;
+  }
+
+  .footer-contacts {
+    display: flex;
+    justify-content: center;
+    min-width: 306px;
+    gap: 32px;
+    padding-top: 16px;
+  }
+
+  .footer-contacts-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer-copy {
+    padding-bottom: 0;
+
+  }
+
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 80px 64px;
+  }
+
+  .footer-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    min-width: 1280px;
+    margin: 0 auto;
+  }
+
+
+  .footer-logo {
+    max-width: 164px;
+    max-height: 70px;
+  }
+
+  .footer-logo-icon {
+    min-width: 159px;
+    height: 60px;
+  }
+
+  .footer-nav {
+    min-width: 566px;
+    max-height: 26px;
+  }
+
+  .footer-social {
+    min-width: 341px;
+    max-height: 24px;
+    justify-content: flex-end;
+  }
+
+  .footer-contact-link {
+    max-width: 24px;
+  }
+
+  .footer-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .info-box {
+    min-width: 1312px;
+  }
+
 }
