@@ -1,6 +1,5 @@
 .gallery {
   box-sizing: border-box;
-
 }
 
 .gallery-container {
@@ -114,7 +113,8 @@
   .gallery-item:nth-child(4) img {
     height: 421px;
   }
-  @media (min-width: 1440px) {
+}
+@media (min-width: 1440px) {
   .gallery {
     max-width: 1312px;
     padding: 64px;
@@ -154,3 +154,4 @@
   .gallery-item:nth-child(4) img {
     height: 421px;
   }
+}
