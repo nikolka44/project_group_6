@@ -1,21 +1,9 @@
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 input {
   font: inherit;
 }
 
-.support-container {
-  padding: 0 16px;
-}
-
 .support {
   background-color: #ebf8ed;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .support-titel {
@@ -76,7 +64,25 @@ input {
   color: transparent;
 }
 
-.support-input:valid {
+.support-text-invalid-input,
+.support-text-invalid-textarea {
+  line-height: 1.6;
+  color: #d64040;
+  display: none;
+}
+
+.support-text-invalid-input {
+  font-size: 12px;
+}
+
+.support-text-invalid-textarea {
+  font-size: 16px;
+}
+
+.support-input:not(:placeholder-shown):invalid ~ .support-text-invalid-input,
+.support-textarea:not(:placeholder-shown):invalid
+  ~ .support-text-invalid-textarea {
+  display: block;
 }
 
 .support-input:not(:placeholder-shown):invalid,
@@ -90,24 +96,23 @@ input {
   font-size: 16px;
   line-height: 1.6;
   color: #fff;
-  border: 1px solid #030a06;
+  border: 1px solid #113916;
   border-radius: 6px;
   padding: 12px 24px;
   max-width: 288px;
   width: 100%;
   height: 50px;
-  background-color: #030a06;
+  background-color: #113916;
+  opacity: 0.6;
   margin-bottom: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .support-btn:hover,
 .support-btn:focus {
   color: #113916;
   background-color: transparent;
-  border: 1px solid #113916;
 }
 
 .support-btn:active {
@@ -132,11 +137,6 @@ input {
 }
 
 @media only screen and (min-width: 768px) {
-  .support {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
-
   .support-titel {
     max-width: 468px;
   }
