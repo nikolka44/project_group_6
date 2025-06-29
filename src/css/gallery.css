@@ -4,6 +4,7 @@
 }
 
 .gallery-container {
+  background-color: #ebf8ed;
   display: flex;
   flex-direction: column;
   align-items: center;
