@@ -19,7 +19,7 @@
 }
 
 .footer-logo-icon {
-  min-width: 273px;
+  max-width: 273px;
   height: 102px;
 
 }
@@ -43,6 +43,12 @@
   color: #030a06;
 }
 
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  opacity: 0.5;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 
 /* Социальные иконки */
 .footer-social {
@@ -57,11 +63,23 @@
   max-width: 32px;
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus {
+  opacity: 0.5;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 .footer-icon {
   width: 32px;
   height: 32px;
   fill: #030a06;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  opacity: 0.5;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -101,12 +119,12 @@
   line-height: 1.6;
   color: #113916;
   text-decoration: none;
-  transition: color 0.25s;
 }
 
 .footer-contact-link:hover,
 .footer-contact-link:focus {
-  color: #030a06;
+  opacity: 0.5;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Копирайт */
@@ -137,7 +155,7 @@
   }
 
   .footer-logo-icon {
-    min-width: 160px;
+    max-width: 160px;
     height: 60px;
   }
 
@@ -195,12 +213,17 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     gap: 32px;
     min-width: 1280px;
     margin: 0 auto;
   }
 
+  .logo-foot {
+    align-items: start;
+    width: 341px;
+    height: 70px;
+  }
 
   .footer-logo {
     max-width: 164px;
@@ -208,7 +231,7 @@
   }
 
   .footer-logo-icon {
-    min-width: 159px;
+    max-width: 159px;
     height: 60px;
   }
 
@@ -234,6 +257,7 @@
 
   .info-box {
     min-width: 1312px;
+    margin-top: 20px;
   }
 
 }
