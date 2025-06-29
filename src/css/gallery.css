@@ -1,8 +1,6 @@
 .gallery {
-  margin: 0 auto;
-  padding: 32px 16px;
-  background-color: #ebf8ed;
   box-sizing: border-box;
+
 }
 
 .gallery-container {
