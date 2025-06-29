@@ -6,17 +6,17 @@
   display: block;
 }
 
+.img-logo {
+  width: 82px;
+  height: 31px;
+}
+
 .header-container {
   padding: 14px 12px 14px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-/* .header-container {
-  display: flex;
-  align-items: center;
-} */
 
 .site-nav-list {
   display: none;
@@ -157,6 +157,11 @@
 @media only screen and (min-width: 1440px) {
   .header-container {
     padding: 0;
+  }
+
+  .img-logo {
+    width: 104px;
+    height: 39px;
   }
 
   .mob-menu-open {
