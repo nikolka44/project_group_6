@@ -1,5 +1,6 @@
 .gallery {
   box-sizing: border-box;
+  background-color: #ebf8ed;
 }
 
 .gallery-container {
@@ -108,4 +109,3 @@
     height: 421px;
   }
 }
-
