@@ -2,6 +2,7 @@
   max-width: 320px;
   padding: 64px 0px;
   margin: 0 auto;
+  background-color: #ebf8ed;
 }
 
 .hero-title {
@@ -76,16 +77,42 @@
   }
 
   .hero-text {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     max-width: 340px;
     font-size: 18px;
   }
   .for-text {
     display: flex;
     flex-wrap: wrap;
+    gap: 32px;
   }
 
   .hero-btn {
     min-width: 148px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    min-width: 1440px;
+  }
+
+  .hero-tab {
+    gap: 32px;
+    max-width: 1312px;
+  }
+
+  .hero-title {
+    max-width: 640px;
+    font-size: 56px;
+  }
+
+  .hero-text {
+    margin-bottom: 0px;
+    max-width: 640px;
+  }
+
+  .hero-btn {
+    margin-bottom: 61px;
   }
 }
