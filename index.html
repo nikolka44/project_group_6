@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
     />
     <script type="module" crossorigin src="/project_group_6/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project_group_6/assets/index-BXhUKlYD.css">
+    <link rel="stylesheet" crossorigin href="/project_group_6/assets/index-C_V2-UeU.css">
   </head>
   <body>
     <header class="header">
@@ -497,7 +497,9 @@
             placeholder="Іван"
             minlength="5"
             maxlength="64"
+            required
           />
+          <p class="support-text-invalid-input">Error text</p>
         </div>
         <div class="modal-field">
           <label class="support-input-text" for="user-email"
@@ -510,7 +512,9 @@
             id="user-email"
             placeholder="hello@ecotote.com"
             pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            required
           />
+          <p class="support-text-invalid-input">Error text</p>
         </div>
         <div class="support-field-textarea">
           <label class="support-input-text" for="user-comment"
@@ -523,6 +527,7 @@
             placeholder="Введіть своє повідомлення..."
             maxlength="500"
           ></textarea>
+          <p class="support-text-invalid-textarea">Error text</p>
         </div>
         <button class="support-btn" type="submit">Надіслати</button>
       </form>
