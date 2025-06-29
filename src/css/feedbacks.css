@@ -37,3 +37,22 @@
   line-height: 1.6;
   color: #030a06;
 }
+@media screen and (min-width: 768px) {
+  .feedbacks-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 24px;
+  }
+  .feedbacks-list-item {
+    max-width: calc((100% - 24px) / 2);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .feedbacks-title {
+    margin-bottom: 80px;
+  }
+  .feedbacks-list-item {
+    max-width: calc((100% - 24px * 3) / 4);
+  }
+}
