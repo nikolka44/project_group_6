@@ -1,5 +1,5 @@
 <section class="hero">
-  <div class="container">
+  <div class="container container-hero">
     <div class="hero-tab">
       <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті.</h1>
       <div class="for-text">
@@ -12,18 +12,25 @@
     </div>
     <picture>
       <source
-        srcset="/img/hero-1x-desk.png 1x, /img/hero-2x-desk.png 2x"
+        srcset="/img/hero/hero1x-desk.webp 1x, /img/hero/hero-2x-desk.webp 2x"
+        type="image/webp"
         media="(min-width: 1440px)"
       />
       <source
-        srcset="/img/hero-1x-tab.png 1x, /img/hero-2x-tab.png 2x"
+        srcset="/img/hero/hero-1x-tab.webp 1x, /img/hero/hero-2x-tab.webp 2x"
+        type="image/webp"
         media="(min-width: 768px)"
       />
       <source
-        srcset="/img/hero--1x-mob.png 1x, /img/hero--2x-mob.png 2x"
+        srcset="/img/hero/hero--1x-mob.webp 1x, /img/hero/hero--2x-mob.webp 2x"
+        type="image/webp"
         media="(max-width: 767px)"
       />
-      <img src="/img/hero--1x-mob.png" alt="EcoTote сумки" />
+      <img
+        src="/img/hero/hero--1x-mob.png"
+        alt="EcoTote сумки"
+        loading="lazy"
+      />
     </picture>
   </div>
 </section>

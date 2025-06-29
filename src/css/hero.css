@@ -1,8 +1,9 @@
 .hero {
-  max-width: 320px;
-  padding: 64px 0px;
-  margin: 0 auto;
   background-color: #ebf8ed;
+  margin: 0 auto;
+}
+.container.container-hero {
+  padding: 64px 16px;
 }
 
 .hero-title {
@@ -62,8 +63,12 @@
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
-    padding: 32px 0px 64px 0px;
   }
+
+  .container.container-hero {
+    padding: 32px 32px 64px 32px;
+  }
+
   .hero-tab {
     display: flex;
     gap: 24px;
@@ -95,6 +100,10 @@
 @media screen and (min-width: 1440px) {
   .hero {
     min-width: 1440px;
+  }
+
+  .container.container-hero {
+    padding: 32px 64px 64px 64px;
   }
 
   .hero-tab {
