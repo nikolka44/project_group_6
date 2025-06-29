@@ -16,14 +16,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
     />
     <script type="module" crossorigin src="/project_group_6/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project_group_6/assets/index-DF1GlsFP.css">
+    <link rel="stylesheet" crossorigin href="/project_group_6/assets/index-VFEoWWzm.css">
   </head>
   <body>
     <header class="header">
   <div class="container header-container">
     <nav class="header-nav">
       <a class="logo-header" href="/index.html"
-        ><img src="/project_group_6/assets/logo-jluAH7sB.svg" alt="logo"
+        ><img class="img-logo" src="/project_group_6/assets/logo-jluAH7sB.svg" alt="logo"
       /></a>
       <ul class="site-nav-list">
         <li class="site-nav-item"><a href="#about">Про нас</a></li>
@@ -48,18 +48,23 @@
         </li>
       </ul>
     </address>
-    <button class="mob-menu-open" type="button" data-menu-open>
+    <button
+      class="mob-menu-open js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      type="button"
+    >
       <svg class="burger-icon" width="32" height="32">
         <use href="/project_group_6/assets/icons-DoET348N.svg#icon-menu"></use>
       </svg>
     </button>
   </div>
-  <div class="mob-menu" data-menu>
+  <div class="mob-menu js-menu-container" id="mobile-menu">
     <div class="mob-close-box">
       <a class="logo" href="/index.html"
-        ><img src="/project_group_6/assets/logo-jluAH7sB.svg" alt="logo"
+        ><img class="img-logo" src="/project_group_6/assets/logo-jluAH7sB.svg" alt="logo"
       /></a>
-      <button class="menu-btn-close" type="button" data-menu-close>
+      <button class="menu-btn-close js-close-menu" type="button">
         <svg class="menu-icon-close" width="16" height="16">
           <use href="/project_group_6/assets/icons-DoET348N.svg#icon-x"></use>
         </svg>
@@ -398,24 +403,24 @@
         <picture>
           <source
             media="(max-width: 767px)"
-            srcset="/img/gallery/mobile-tote-chair1.webp 1x, /img/gallery/mobile-tote-chair2.webp 2x"
+            srcset="/project_group_6/assets/mobile-tote-chair1-ZwlMI6dg.webp 1x, /project_group_6/assets/mobile-tote-chair2-PnN1FHIa.webp 2x"
           />
 
           <source
             type="image/webp"
             media="(min-width: 768px) and (max-width: 1439px)"
-            srcset="/img/gallery/tablet-tote-chair1.webp 1x, /img/gallery/tablet-tote-chair2.webp 2x"
+            srcset="/project_group_6/assets/tablet-tote-chair1-CneQpPR8.webp 1x, /project_group_6/assets/tablet-tote-chair2-BdnmJ9oi.webp 2x"
           />
 
           <source
             type="image/webp"
             media="(min-width: 1440px)"
-            srcset="/img/gallery/deskstop-tote-chair1.webp 1x, /img/gallery/deskstop-tote-chair2.webp 2x"
+            srcset="/project_group_6/assets/deskstop-tote-chair1-963r5qZU.webp 1x, /project_group_6/assets/deskstop-tote-chair2-DICgnerJ.webp 2x"
           />
 
           <img
-            src="/img/gallery/mobile-tote-chair1.webp"
-            srcset="/img/gallery/mobile-tote-chair1.webp 1x, /img/gallery/mobile-tote-chair2.webp 2x"
+            src="/project_group_6/assets/mobile-tote-chair1-ZwlMI6dg.webp"
+            srcset="/project_group_6/assets/mobile-tote-chair1-ZwlMI6dg.webp 1x, /project_group_6/assets/mobile-tote-chair2-PnN1FHIa.webp 2x"
             alt="An eco tote placed on a chair."
             loading="lazy"
             width="288"
@@ -429,24 +434,24 @@
           <source
             type="image/webp"
             media="(max-width: 767px)"
-            srcset="/img/gallery/mobile-city-scene1.webp 1x, /img/gallery/mobile-city-scene2.webp 2x"
+            srcset="/project_group_6/assets/mobile-city-scene1-Dfv_OfvE.webp 1x, /project_group_6/assets/mobile-city-scene2-D5Y7ZVtk.webp 2x"
           />
 
           <source
             type="image/webp"
             media="(min-width: 768px) and (max-width: 1439px)"
-            srcset="/img/gallery/tablet-city-scene1.webp 1x, /img/gallery/tablet-city-scene2.webp 2x"
+            srcset="/project_group_6/assets/tablet-city-scene1-nL4mQhcZ.webp 1x, /project_group_6/assets/tablet-city-scene2-B53qU8Qm.webp 2x"
           />
 
           <source
             type="image/webp"
             media="(min-width: 1440px)"
-            srcset="/img/gallery/deskstop-city-scene1.webp 1x, /img/gallery/deskstop-city-scene2.webp 2x"
+            srcset="/project_group_6/assets/deskstop-city-scene1-B1xe3GXF.webp 1x, /project_group_6/assets/deskstop-city-scene2-BhzB4gaI.webp 2x"
           />
 
           <img
-            src="/img/gallery/mobile-city-scene1.webp"
-            srcset="/img/gallery/mobile-city-scene1.webp 1x, /img/gallery/mobile-city-scene2.webp 2x"
+            src="/project_group_6/assets/mobile-city-scene1-Dfv_OfvE.webp"
+            srcset="/project_group_6/assets/mobile-city-scene1-Dfv_OfvE.webp 1x, /project_group_6/assets/mobile-city-scene2-D5Y7ZVtk.webp 2x"
             alt="A man with a large bag in his hands."
             loading="lazy"
             width="288"
@@ -460,24 +465,24 @@
           <source
             type="image/webp"
             media="(max-width: 767px)"
-            srcset="/img/gallery/mobile-person-walking1.webp 1x, /img/gallery/mobile-person-walking2.webp 2x"
+            srcset="/project_group_6/assets/mobile-person-walking1-B1IWVKHT.webp 1x, /project_group_6/assets/mobile-person-walking2-DduXdqcT.webp 2x"
           />
 
           <source
             type="image/webp"
             media="(min-width: 768px) and (max-width: 1439px)"
-            srcset="/img/gallery/tablet-person-walking1.webp 1x, /img/gallery/tablet-person-walking2.webp 2x"
+            srcset="/project_group_6/assets/tablet-person-walking1-BOpKeMFF.webp 1x, /project_group_6/assets/tablet-person-walking2-B93Kt8ni.webp 2x"
           />
 
           <source
             type="image/webp"
             media="(min-width: 1440px)"
-            srcset="/img/gallery/deskstop-person-walking1.webp 1x, /img/gallery/deskstop-person-walking2.webp 2x"
+            srcset="/project_group_6/assets/deskstop-person-walking1-C6JlpEUn.webp 1x, /project_group_6/assets/deskstop-person-walking2-DOfSlmKP.webp 2x"
           />
 
           <img
-            src="/img/gallery/mobile-person-walking1.webp"
-            srcset="/img/gallery/mobile-person-walking1.webp 1x, /img/gallery/mobile-person-walking2.webp 2x"
+            src="/project_group_6/assets/mobile-person-walking1-B1IWVKHT.webp"
+            srcset="/project_group_6/assets/mobile-person-walking1-B1IWVKHT.webp 1x, /project_group_6/assets/mobile-person-walking2-DduXdqcT.webp 2x"
             alt="A woman with an eco-bag on her shoulder."
             loading="lazy"
             width="288"
@@ -491,23 +496,23 @@
           <source
             type="image/webp"
             media="(max-width: 767px)"
-            srcset="/img/gallery/mobile-young-woman1.webp 1x, /img/gallery/mobile-young-woman2.webp 2x"
+            srcset="/project_group_6/assets/mobile-young-woman1-C8WaRZx2.webp 1x, /project_group_6/assets/mobile-young-woman2-PvJsxMkZ.webp 2x"
           />
 
           <source
             type="image/webp"
             media="(min-width: 768px) and (max-width: 1439px)"
-            srcset="/img/gallery/tablet-young-woman1.webp 1x, /img/gallery/tablet-young-woman2.webp 2x"
+            srcset="/project_group_6/assets/tablet-young-woman1-BkW_pR9u.webp 1x, /project_group_6/assets/tablet-young-woman2-DTKMs1XV.webp 2x"
           />
 
           <source
             type="image/webp"
             media="(min-width: 1440px)"
-            srcset="/img/gallery/deskstop-young-woman1.webp 1x, /img/gallery/deskstop-young-woman2.webp 2x"
+            srcset="/project_group_6/assets/deskstop-young-woman1-64B1dYW4.webp 1x, /project_group_6/assets/deskstop-young-woman2-D_P4VmeJ.webp 2x"
           />
           <img
-            src="/img/gallery/mobile-young-woman1.webp"
-            srcset="/img/gallery/mobile-young-woman1.webp 1x, /img/gallery/mobile-young-woman2.webp 2x"
+            src="/project_group_6/assets/mobile-young-woman1-C8WaRZx2.webp"
+            srcset="/project_group_6/assets/mobile-young-woman1-C8WaRZx2.webp 1x, /project_group_6/assets/mobile-young-woman2-PvJsxMkZ.webp 2x"
             alt="A woman with a large eco-bag."
             loading="lazy"
             width="288"
@@ -728,6 +733,13 @@
 
     </div>
 </footer>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
 
   </body>
 </html>
