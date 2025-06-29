@@ -77,11 +77,6 @@
 }
 
 @media (min-width: 1440px) {
-  .gallery {
-    max-width: 1312px;
-    padding: 64px;
-  }
-
   .gallery-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
