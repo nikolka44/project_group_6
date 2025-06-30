@@ -120,7 +120,7 @@ input {
 }
 
 .support-picture {
-  background-image: url(../img/support/studio-space-mob.jpg);
+  background-image: url(../img/support/studio-space-mob.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,7 +132,7 @@ input {
 
 @media only screen and (min-resolution: 2x) {
   .support-picture {
-    background-image: url(../img/support/studio-space-mob-2x.jpg);
+    background-image: url(../img/support/studio-space-mob-2x.webp);
   }
 }
 
@@ -150,14 +150,14 @@ input {
   }
 
   .support-picture {
-    background-image: url(../img/support/studio-space-tab.jpg);
+    background-image: url(../img/support/studio-space-tab.webp);
     max-width: 704px;
     height: 428px;
   }
 
   @media only screen and (min-resolution: 2x) {
     .support-picture {
-      background-image: url(../img/support/studio-space-tab-2x.jpg);
+      background-image: url(../img/support/studio-space-tab-2x.webp);
     }
   }
 }
@@ -192,14 +192,14 @@ input {
   }
 
   .support-picture {
-    background-image: url(../img/support/studio-space-des.jpg);
+    background-image: url(../img/support/studio-space-des.webp);
     max-width: 644px;
     height: 767px;
   }
 
   @media only screen and (min-resolution: 2x) {
     .support-picture {
-      background-image: url(../img/support/studio-space-des-2x.jpg);
+      background-image: url(../img/support/studio-space-des-2x.webp);
     }
   }
 }
