@@ -14,10 +14,12 @@
   flex-direction: column;
   gap: 40px;
 }
+.feedbacks-icon-box {
+  margin-bottom: 12px;
+}
 .feedbacks-icon {
   fill: #3ac04c;
   margin-right: 4px;
-  margin-bottom: 12px;
 }
 .feedbacks-icon.down {
   fill: #030a06;
