@@ -61,10 +61,6 @@
 /* --media for hero sections-- */
 
 @media screen and (min-width: 768px) {
-  .hero {
-    /* max-width: 768px; */
-  }
-
   .container.container-hero {
     padding: 32px 32px 64px 32px;
   }
@@ -82,14 +78,13 @@
   }
 
   .hero-text {
-    /* margin-bottom: 32px; */
+    margin-bottom: 32px;
     max-width: 340px;
     font-size: 18px;
   }
   .for-text {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
   }
 
   .hero-btn {
@@ -117,7 +112,6 @@
   }
 
   .hero-text {
-    margin-bottom: 0px;
     max-width: 640px;
   }
 
