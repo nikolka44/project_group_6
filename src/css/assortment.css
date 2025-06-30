@@ -20,7 +20,6 @@ img {
 }
 .thumb {
   display: flex;
-  margin-bottom: 16px;
   border-radius: 32px;
   align-items: center;
   justify-content: center;
@@ -31,6 +30,13 @@ img {
   text-align: center;
   color: #030a06;
   line-height: 1.6;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: auto 0;
+}
+.assortment-list-item {
+  display: flex;
+  flex-direction: column;
 }
 .assortment-item-subtitle {
   font-weight: 600;
@@ -52,23 +58,25 @@ img {
   color: #fff;
   width: 100%;
   height: 40px;
-  margin-top: 16px;
   margin-bottom: 40px;
-  background-color: #113916;
-  border: 1px solid #113916;
+  background-color: #030a06;
+  border: 1px solid #030a06;
   border-radius: 6px;
   padding: 8px 20px;
-  opacity: 60%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .assortment-item-btn:hover,
 .assortment-item-btn:focus {
-  background-color: transparent;
-  color: #113916;
+  opacity: 50%;
 }
 .assortment-item-btn:active {
-  border: none;
+  background-color: #113916;
+  opacity: 60%;
+}
+.assortment-item-btn:disabled {
+  background-color: #030a06;
+  opacity: 20%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -87,9 +95,7 @@ img {
     max-width: 200px;
     margin: 0 auto;
   }
-  .tab-bag-group {
-    margin-bottom: 22px;
-  }
+
   .assortment-item-btn {
     margin-bottom: 0;
   }
@@ -111,14 +117,7 @@ img {
   .assortment-list-item {
     flex: 1 1 calc((100% - 72px) / 4);
   }
-  .duffle-pc-group {
-    max-width: 250px;
-    margin: 0 auto;
-  }
-  .tab-bag-group {
-    margin-top: 27px;
-    margin-bottom: 11px;
-  }
+
   .pc-kids-group {
     margin-top: 27px;
     margin-bottom: 11px;
